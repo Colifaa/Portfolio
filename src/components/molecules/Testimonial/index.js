@@ -13,6 +13,7 @@ import {
 } from "../../../hooks/useAnimation";
 import { BottomLine } from "../../../components";
 
+
 const Testimonial = () => {
   const [ref, inView] = useInView();
   const [viewDiv, setViewDiv] = useState(false);
@@ -25,6 +26,7 @@ const Testimonial = () => {
       setViewDiv(false);
     }
   }, [inView, animation]);
+
   const settings = {
     dots: true,
     arrows: false,
@@ -51,10 +53,11 @@ const Testimonial = () => {
       },
     ],
   };
+
   return (
     <div className="py-12 parent">
       <motion.div
-        className="mb-8"
+        className="mb-20"
         initial="hidden"
         animate={viewDiv && "visible"}
         variants={headingAnimation}
@@ -71,33 +74,45 @@ const Testimonial = () => {
         initial="hidden"
         animate={viewDiv && "visible"}
         variants={sectionBodyAnimation}
+
       >
-        <Slider {...settings}>
-          {Reviews.map((review) => (
-            <div key={review.id} className="mt-6">
-              <div
-                className="mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary pt-6 flex flex-col justify-between h-[300px]"
-                style={{ backgroundColor: "#313131" }}
-              >
-                <div className="px-6">
-                  <FaQuoteLeft className="mb-4 text-6xl text-primary"></FaQuoteLeft>
-                  <h2 className="text-center">{review.description}</h2>
-                </div>
-                <div className="flex justify-end px-6 py-2 mt-12 rounded-b bg-primary">
-                  <div className="mr-4 text-right text-gray-200">
-                    <h2 className="font-medium leading-none">{review.name}</h2>
-                    <p className="text-xs leading-none">{review.bio}</p>
-                  </div>
-                  <img
-                    src={review.img}
-                    alt="client"
-                    className="inline-block w-16 h-16 -mt-10 bg-white rounded-full"
-                  />
-                </div>
-              </div>
-            </div>
-          ))}
-        </Slider>
+<Slider {...settings}>
+  {Reviews.map((review) => (
+    <div key={review.id} className="mt-4">
+      <div
+        className="mx-auto rounded-xl shadow-xl single-blog cursor-pointer border-2 border-primary pt-4 flex flex-col justify-center"
+        style={{
+          backgroundColor: "#313131",
+          height: "300px",
+          width: "300px",
+          overflow: "hidden", // Agrega el desbordamiento oculto para el recuadro
+          position: "relative",// Establece la posición relativa para el recuadro
+  
+          display: "flex",
+          justifyContent: "center",
+          
+        }}
+      >
+        <video
+          style={{
+            position: "absolute", // Posiciona el video absolutamente dentro del contenedor
+            top: "20%", // Lo coloca en la mitad verticalmente
+            left: "50%", // Lo coloca en la mitad horizontalmente
+            transform: "translate(-50%, -50%)", // Centra el video
+            width: "100%", // Ancho del video al 100% del contenedor
+            height: "auto", // Altura automática para mantener la relación de aspecto
+            objectFit: "cover", // Ajustar el video para cubrir todo el contenedor
+            borderRadius: "20px", // Redondea los bordes del video
+            
+          }}
+          controls
+        >
+          <source src={review.video} />
+        </video>
+      </div>
+    </div>
+  ))}
+</Slider>
       </motion.div>
     </div>
   );

@@ -118,6 +118,50 @@ const Items = [
       "Borrado logico",
      "Diseño responsivo",
      "Panel Admin",
+     "Panel Usuario",
+     "Operaciones CRUD (Creación, lectura, actualización y eliminación de Poaps)",
+     "Formulario para Crear Poaps",
+     "Muestra de Poaps Creados",
+     "Muestra de Poaps Minteados",
+    ],
+    technologies: [
+      "React",
+      "Nextjs",
+      "React Hooks",
+      "React Router Dom",
+      "Axios",
+      "Tailwind",
+      "ChakraUI",
+      "Heroku",
+      "OpenZeppelin",
+      "Alchemy",
+      "Pinata",
+     "Solidity",
+    ],
+    title: "Frio Mundo",
+    description:
+      "Sitio web de ventas de paneles frigorificos",
+    category: "business",
+    liveLink: "https://www.friomundo.online/",
+    codeLink: "https://github.com/Colifaa/Frio_Mundo",
+  },
+
+
+  {
+    id: 5,
+    mainImage: "/Poaps.png",
+    img: [
+      "/Poaps.png",
+      "/Poaps2.png",
+      "/Poaps3.png",
+  
+    
+    ],
+    features: [
+      "Agregar productos al carrito",
+      "Borrado logico",
+     "Diseño responsivo",
+     "Panel Admin",
      "Operaciones CRUD (Creación, lectura, actualización y eliminación de productos)",
      "Formulario para realizar pedidos",
      "Muestra de productos",
@@ -136,13 +180,15 @@ const Items = [
       "Dontenv",
       "Nodemon",
     ],
-    title: "Frio Mundo",
+    title: "Poaps generator",
     description:
-      "Sitio web de ventas de paneles frigorificos",
+      "Sitio Web para Crear Eventos y  Mintear Poap's ",
     category: "business",
-    liveLink: "https://www.friomundo.online/",
-    codeLink: "https://github.com/Colifaa/Frio_Mundo",
+    liveLink: "https://andino.vercel.app/",
+    codeLink: "https://github.com/Colifaa/Andino",
+   
   },
+ 
  
 ];
 
