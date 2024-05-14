@@ -62,9 +62,9 @@ const Testimonial = () => {
         animate={viewDiv && "visible"}
         variants={headingAnimation}
       >
-        <h3 className="text-center text-neutral">What My Clients Say</h3>
+        <h3 className="text-center text-neutral">En los tiempos libres</h3>
         <h1 className="text-4xl font-semibold text-center text-primary">
-          Testimonials
+         Mis hermanos de sangre
         </h1>
         <BottomLine />
       </motion.div>
@@ -83,8 +83,8 @@ const Testimonial = () => {
         className="mx-auto rounded-xl shadow-xl single-blog cursor-pointer border-2 border-primary pt-4 flex flex-col justify-center"
         style={{
           backgroundColor: "#313131",
-          height: "300px",
-          width: "300px",
+          height: "550px",
+          width: "550px",
           overflow: "hidden", // Agrega el desbordamiento oculto para el recuadro
           position: "relative",// Establece la posición relativa para el recuadro
   
@@ -96,7 +96,7 @@ const Testimonial = () => {
         <video
           style={{
             position: "absolute", // Posiciona el video absolutamente dentro del contenedor
-            top: "20%", // Lo coloca en la mitad verticalmente
+            top: "14%", // Lo coloca en la mitad verticalmente
             left: "50%", // Lo coloca en la mitad horizontalmente
             transform: "translate(-50%, -50%)", // Centra el video
             width: "100%", // Ancho del video al 100% del contenedor

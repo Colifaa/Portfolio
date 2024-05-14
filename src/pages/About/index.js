@@ -20,9 +20,9 @@ const About = () => {
             transition: { duration: 1, type: "spring" },
           }}
         >
-          <h3 className="text-neutral text-center">Something About Myself</h3>
+         
           <h1 className="text-4xl font-semibold drop-shadow-md text-center">
-            About <span className="text-primary">Me</span>
+            Sobre <span className="text-primary">Mi</span>
           </h1>
           <BottomLine />
         </motion.div>
@@ -36,10 +36,10 @@ const About = () => {
             }}
           >
             <img
-              src="https://res.cloudinary.com/du541igfh/image/upload/v1683035791/Blog%20Portfolio%20Gilbert/Project/berthutapea.com/GilbertHutapea_qjy2gq.png"
-              alt="Gilbert Hutapea"
-              className="p-12 w-70 h-70 transform translate-y-[-12%]"
-              title="Gilbert Hutapea"
+              src="Jorge.png"
+              alt="Mathez Jorge"
+              className="p-22 w-70 h-70 transform translate-y-[-12%]"
+              title="Mathez Jorge"
             />
 
           </motion.div>
@@ -52,29 +52,36 @@ const About = () => {
               transition: { duration: 1, delay: 1.25 },
             }}
           >
-            <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">Gilbert Hutapea</h1>
+            <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">Mathez Jorge</h1>
             <div className="my-8">
               <TypeAnimation
                 className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
                 cursor={true}
                 sequence={[
-                  "A Mern-stack Developer",
-                  2000,
-                  "A Full-stack Developer",
-                  2000,
-                  "A Front-end Developer",
-                  2000
+                  "Blockchain-Developer",
+                  3000,
+                  "Full-stack Developer",
+                  3000,
+            
                 ]}
                 wrapper="div"
                 repeat={Infinity}
               />
             </div>
             <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-              As a MERN stack developer, I am committed to building high-quality
-              web applications that meet the needs of my clients. With years of
-              experience in full-stack web development, I specialize in using
-              React.js, Next js, Typescript, MongoDB, Express.js, and Node.js to
-              create scalable and robust web applications.
+            Soy un Desarrollador Web Full Stack con experiencia en distintas tecnologías de desarrollo web como HTML, CSS, Javascript, React, Redux, Node.js, SQL React.js, Next js, MongoDB, Express.js.💻
+
+Además de mi experiencia en desarrollo web,
+ también tengo habilidades adicionales que me hacen un candidato aún más valioso para cualquier proyecto, 
+ como la música y el trading de criptomonedas. 📈📊🎸🎧
+
+También he trabajado como ayudante de un ingeniero agrimensor, 
+lo que me ha permitido adquirir habilidades de diseño y trabajar en proyectos más complejos y multidisciplinarios.🏧📚
+
+Siempre estoy buscando formas de ampliar mis habilidades y 
+conocimientos en diferentes áreas y estoy seguro de que puedo aportar una perspectiva única 
+y valiosa a cualquier proyecto en el que esté involucrado.
+            
               {/* Dedicated Front-end developer. Capable to solve working problems.
               Passionate about learning & development to reach the target. Eager
               to tackle more complex problems and continue to find ways to
@@ -82,28 +89,29 @@ const About = () => {
             </p>
             <br />
             <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-              My passion for solving complex problems and creating innovative
-              solutions drives me to stay up-to-date with the latest
-              technologies and trends in the industry.
+            "Mi pasión por abordar desafíos complejos y concebir soluciones
+             innovadoras me motiva constantemente a mantenerme al tanto de las últimas tendencias y
+              avances en tecnología e industria. La búsqueda incansable de soluciones me impulsa a estar siempre actualizado, 
+            listo para aplicar conocimientos frescos y perspectivas innovadoras en cada proyecto que emprendo.
               {/* My next mission is how to become a Mern stack Developer. I would
               love to build some Giant Website which will shine myself. */}
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">
-                <span className="mr-2 text-primary">Name : </span>Gilbert Hutapea
+                <span className="mr-2 text-primary">Name : </span>Mathez Jorge
               </h2>
               <h2 className="font-medium">
-                <span className="mr-2 text-primary">Phone : </span>+62 823 6148 4992
+                <span className="mr-2 text-primary">Phone : </span>+54 9 2604224940
               </h2>
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Email : </span>
-                berthutapea@gmail.com
+               Jorgemathez14@gmail.com
               </h2>
               <h2 className="font-medium">
-                <span className="mr-2 text-primary">Address : </span>Karawang, Jawa Barat, Indonesia
+                <span className="mr-2 text-primary">Address : </span>San Rafael Mdza, Argentina
               </h2>
               <a
-                href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+                  href="https://drive.google.com/file/d/15X25IURJL1UG6VcDj7gwlgPI7wGrQmmX/view?usp=drive_link"
                 target="blank"
               >
                 <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
