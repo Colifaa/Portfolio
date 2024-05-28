@@ -6,9 +6,14 @@ const Footer = () => {
 
   return (
     <>
-      <footer
-        className="w-full text-center p-6 bg-accent"
-        style={{ backgroundColor: "#313131" }}
+        <footer
+        className="w-full text-center p-8 md:p-16 bg-accent"
+        style={{
+          backgroundImage: `url('https://favim.com/pd/s3/orig/160108/anime-gif-one-piece-monkey-d-luffy-Favim.com-3858523.gif')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          minHeight: '400px' // Ajusta la altura mínima del footer
+        }}
       >
         <div className="flex items-center justify-center mb-6">
           <a
