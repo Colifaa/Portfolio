@@ -11,6 +11,7 @@ import {
 } from "../../hooks/useAnimation";
 import {BottomLine} from "../../components";
 
+
 const Project = () => {
   const [items, setItems] = useState(Items);
   const [activeBtn, setActiveBtn] = useState("all");
@@ -39,14 +40,18 @@ const Project = () => {
   };
 
   return (
+  
     <div className={`${location.pathname !== "/" && "pt-16"}`}>
+         
       <div className="parent py-12">
+     
         <motion.div
           initial="hidden"
           animate={viewDiv && "visible"}
           variants={headingAnimation}
         >
           <div className="mb-12">
+            
             <h3 className="text-neutral text-center">
               Some of my recent Projects
             </h3>
@@ -112,7 +117,9 @@ const Project = () => {
           </div>
 
           {/* Items Card */}
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
             {items.map((item) => (
               <motion.div
                 initial={{ x: 200, opacity: 0, scale: 0 }}

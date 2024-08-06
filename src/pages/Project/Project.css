@@ -1,5 +1,5 @@
 .active-btn {
-    color: #FF651C;
+    color: #BB8493;
     background-color: transparent;
 }
 
@@ -28,7 +28,7 @@
     left: 15px;
     padding: 10px;
     text-align: center;
-    border: 2px solid #FF651C;
+    border: 4px solid #49243E;
     border-radius: 5px;
     content: '';
     opacity: 0;
@@ -49,7 +49,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #313131;
+    background-image: url('https://image.tensorartassets.com/cdn-cgi/image/anim=false,plain=false,w=2048,f=jpeg,q=85/posts/images/610393416576155372/492e209f-b8c9-4be4-99ce-74cc7b360bb0');
 }
 
 .item:hover img {

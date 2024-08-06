@@ -7,9 +7,12 @@ import "../shared/Shared.css";
 import { BottomLine, MySkill, Education } from "../../components";
 import { FaDownload } from "react-icons/fa";
 
+
 const About = () => {
   return (
+    
     <div className="parent pt-16 my-16">
+         
       <div className="">
         <motion.div
           className="mb-10"
@@ -36,7 +39,7 @@ const About = () => {
             }}
           >
        <img
-  src="Jorge.png"
+  src="Jorge.jpg"
   alt="Mathez Jorge"
   className="mx-auto w-900 max-w-sm md:max-w-none md:mx-0 h-auto md:h-auto transform md:translate-y-[-12%]"
   title="Mathez Jorge"

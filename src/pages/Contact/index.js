@@ -20,6 +20,7 @@ import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
 import { BottomLine } from "../../components";
 
+
 const Contact = () => {
   const navigate = useNavigate();
   const form = useRef();
@@ -63,7 +64,9 @@ const Contact = () => {
     e.target.reset();
   };
   return (
+   
     <div className="parent py-24 mt-4">
+  
       <motion.div
         initial="hidden"
         animate={viewDiv && "visible"}

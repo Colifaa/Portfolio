@@ -58,13 +58,13 @@ export default function Navbar() {
 
   return (
     <div
-      className={`visible ${show && "nav-hidden"} shadow-lg bg-[#313131] 
+      className={`visible ${show && "nav-hidden"} shadow-lg bg-[#DBAFA0] 
      z-50`}
     >
       <div className="w-full flex items-center justify-between px-3 md:px-24 py-3">
         <div>
           <Link to="/">
-            <h1 className="text-2xl text-primary font-lobster">Gilbert Hutapea</h1>
+            <h1 className="text-2xl text-primary font-lobster">👾👾Jorge Mathez </h1>
           </Link>
         </div>
         <div>
@@ -83,7 +83,7 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+              href="https://docs.google.com/document/d/1TcYciLF6MWCs8uOPfZmwLc_EGv7-q0QUfGCKXUhTz_0/edit?usp=sharing"
               target="blank"
             >
               <PrimaryBtn>
@@ -145,7 +145,7 @@ export default function Navbar() {
               </ul>
               <div className="text-center">
                 <p className="text-neutral">
-                  &copy; Copyright 2023, Gilbert Hutapea. All Rights Reserved
+                  &copy; Copyright 2023, Jorge Mathez. Todos los derechos reservados
                 </p>
               </div>
             </Drawer>
